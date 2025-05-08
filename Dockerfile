@@ -47,5 +47,8 @@ RUN make
 
 RUN make install
 
+# Create output directory
+RUN mkdir -p /root/httrack-3.49.2/output
+
 # Set default command
 CMD ["bash"]
